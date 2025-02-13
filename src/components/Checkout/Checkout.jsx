@@ -22,6 +22,10 @@ export default function Checkout() {
   window.location.href = data.session.url
   }
 
+    useEffect(()=>{
+      document.title="Checkout"
+    },[])
+
   return (
    <>
    <h2 className='font-bold text-2xl text-center my-4 text-cyan-500'>Checkout Now</h2>

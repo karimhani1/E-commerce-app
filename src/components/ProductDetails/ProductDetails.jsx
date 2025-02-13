@@ -42,6 +42,7 @@ export default function ProductDetails() {
   useEffect(() => {
     getproduct(id)
     getAllproducts()
+     document.title="ProductDetails"
   }, [id ,category])
   return (
     <>

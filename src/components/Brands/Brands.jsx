@@ -32,7 +32,7 @@ function boxAlert(id){
 
 useEffect(()=>{
   getBrands()
-
+ document.title ="Brands"
 },[])
 
 

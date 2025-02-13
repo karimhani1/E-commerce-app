@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import style from "./Login.module.css";
 import { useFormik } from "formik";
 import * as yup from "yup";
@@ -32,6 +32,9 @@ export default function Login() {
 
   }
 
+  useEffect(()=>{
+     document.title ="Login"
+  },[])
 
   let myValidation = yup.object().shape({
     email : yup.string().email("not valid email").required("email is required"),

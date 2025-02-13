@@ -41,6 +41,7 @@ setproducts(res.data.data)
 
 useEffect(()=>{
   getProducts()
+   document.title = "Products"
 },[])
 
   return (

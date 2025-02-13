@@ -30,11 +30,12 @@ export default function Register() {
   setApiError(res.response.data.message)
  })
 
-  
-  
     
   }
 
+    useEffect(()=>{
+       document.title ="Register"
+    },[])
 
   let myValidation = yup.object().shape({
     name : yup.string().min(3,"min lenght is 3").max(10,"max lenght is 10").required("name is required"),

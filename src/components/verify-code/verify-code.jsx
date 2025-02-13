@@ -16,9 +16,9 @@ console.log(res);
 
 }
 
-// useEffect(()=>{
-//   handleVerifyPassword()
-// },[])
+useEffect(()=>{
+  document.title="Verify-code"
+},[])
 
   let formik = useFormik({
     initialValues : {

@@ -52,6 +52,7 @@ else{
 
 useEffect(()=>{
   getCartItems()
+  document.title = "Cart"
 },[])
 
   return  <>

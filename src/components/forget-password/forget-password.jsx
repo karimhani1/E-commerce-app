@@ -27,9 +27,9 @@ if(res.data.message == "success"){
 
 }
 
-// useEffect(()=>{
-//   handleForgetPassword()
-// },[])
+useEffect(()=>{
+  document.title="Forget-password"
+},[])
 
   let formik = useFormik({
     initialValues : {

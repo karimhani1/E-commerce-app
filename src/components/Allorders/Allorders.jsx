@@ -19,6 +19,7 @@ console.log(res.data.data);
 
   useEffect(()=>{
     GetUserOrder()
+    document.title="Allorders"
   },[])
   return (
    <>

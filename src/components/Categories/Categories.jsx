@@ -20,6 +20,7 @@ function getCategories(){
 
  useEffect(() => {
   getCategories()
+  document.title ="Categories"
   }, [])
 
   return (

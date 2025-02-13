@@ -39,6 +39,7 @@ export default function Wishlist() {
 
    useEffect(()=>{
     getWishItems()
+     document.title = "Wishlist"
    },[])
    
 
