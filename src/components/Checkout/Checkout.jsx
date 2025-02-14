@@ -13,7 +13,7 @@ export default function Checkout() {
       city : "",
     },
     onSubmit : () => 
-      handleCheckout(cartId , `http://localhost:5173`),
+      handleCheckout(cartId , `https://e-commerce-app-seven-kappa.vercel.app/`),
   });
  
    async function handleCheckout(cartId , url){
